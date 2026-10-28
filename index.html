@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#174f3b">
+  <meta name="description" content="CETNA — Centro Integrado de Terapias da Amazônia. Cuidar de você é o nosso propósito.">
+  <title>CETNA | Centro Integrado de Terapias da Amazônia</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#inicio" aria-label="CETNA, página inicial">
+    <img src="assets/logo.svg" alt="" class="brand-mark">
+    <span><strong>CETNA</strong><small>Centro Integrado de Terapias da Amazônia</small></span>
+  </a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  <nav id="mainNav" aria-label="Menu principal">
+    <a href="#servicos">Serviços</a><a href="#equipe">Nossa equipe</a><a href="#agendamento">Agendamento</a><a href="#perguntas">Dúvidas</a>
+  </nav>
+</header>
+<main>
+  <section class="hero" id="inicio">
+    <div class="hero-copy">
+      <p class="eyebrow">Acolhimento • Equilíbrio • Bem-estar</p>
+      <h1>Cuidar de você é o nosso <em>propósito.</em></h1>
+      <p>Um espaço de acolhimento e cuidado individualizado, com atendimentos presenciais e on-line.</p>
+      <a class="button" href="#agendamento">Solicitar atendimento</a>
+      <p class="small-note">O pedido de agendamento depende de confirmação da equipe.</p>
+    </div>
+    <div class="hero-art" aria-label="Ilustração botânica de vitória-régia">
+      <div class="sun"></div><div class="water"></div>
+      <div class="lily lily-one"></div><div class="lily lily-two"></div><div class="lily lily-three"></div>
+      <span class="hero-caption">Cuidado que acolhe.<br>Natureza que inspira.</span>
+    </div>
+  </section>
+
+  <section class="section" id="servicos">
+    <div class="section-heading"><p class="eyebrow">Como podemos acolher você</p><h2>Nossos serviços</h2><p>Conheça as opções disponíveis no CETNA. A modalidade e a disponibilidade são confirmadas pela equipe.</p></div>
+    <div class="service-grid">
+      <article class="service-card"><div class="service-icon">✿</div><h3>Aromaterapia</h3><p>Uma experiência de bem-estar que utiliza aromas.</p><div class="service-bottom"><strong>R$ 200,00</strong><span>Duração a confirmar</span></div></article>
+      <article class="service-card"><div class="service-icon">☼</div><h3>Cromoterapia + Reiki</h3><p>Pacote combinado de práticas integrativas de bem-estar.</p><div class="service-bottom"><strong>R$ 200,00</strong><span>Duração a confirmar</span></div></article>
+      <article class="service-card"><div class="service-icon">❋</div><h3>Massagem relaxante aromática</h3><p>Atendimento voltado ao relaxamento e ao conforto.</p><div class="service-bottom"><strong>Valor a confirmar</strong><span>Duração a confirmar</span></div></article>
+      <article class="service-card"><div class="service-icon">❀</div><h3>Massagem nos pés</h3><p>Cuidado dedicado ao conforto e ao relaxamento dos pés.</p><div class="service-bottom"><strong>Valor a confirmar</strong><span>Duração a confirmar</span></div></article>
+      <article class="service-card"><div class="service-icon">◌</div><h3>Relaxamento</h3><p>Detalhes da modalidade serão confirmados com a equipe.</p><div class="service-bottom"><strong>Consultar</strong><span>Disponibilidade a confirmar</span></div></article>
+    </div>
+    <p class="disclaimer">As práticas integrativas são apresentadas como serviços de bem-estar e não substituem avaliação, diagnóstico ou tratamento médico.</p>
+  </section>
+
+  <section class="team-section" id="equipe">
+    <div class="section-heading"><p class="eyebrow">Cuidado em conjunto</p><h2>Nossa equipe</h2><p>Três profissionais, uma equipe integrada. As apresentações e fotos serão completadas antes da divulgação oficial.</p></div>
+    <div class="team-grid">
+      <article class="team-card"><div class="avatar">M</div><h3>Marília de Machado</h3><p>Pedagoga e terapeuta holística</p><span class="tag">Apresentação em atualização</span></article>
+      <article class="team-card"><div class="avatar">A</div><h3>André de Machado</h3><p>Integrante da equipe CETNA</p><span class="tag">Atuação a confirmar</span></article>
+      <article class="team-card"><div class="avatar">A</div><h3>Alice</h3><p>Fisioterapeuta</p><span class="tag">Sobrenome a confirmar</span></article>
+    </div>
+    <p class="small-note centered">As fotos reais dos profissionais serão adicionadas posteriormente, com a autorização de cada um.</p>
+  </section>
+
+  <section class="section booking-section" id="agendamento">
+    <div class="booking-intro"><p class="eyebrow">Vamos conversar</p><h2>Solicite seu atendimento</h2><p>Preencha os dados e indique sua preferência. A equipe entrará em contato para confirmar a disponibilidade e orientar o pagamento.</p>
+      <div class="booking-info"><span>✓</span><p><strong>Pagamento por Pix</strong><br>O pagamento integral é previsto antes do atendimento, após a confirmação do horário. A chave Pix será informada pela equipe.</p></div>
+      <div class="booking-info"><span>✓</span><p><strong>Sem confirmação automática</strong><br>Enviar o formulário não reserva nem confirma o horário.</p></div>
+    </div>
+    <form id="bookingForm" class="booking-form">
+      <label for="clientName">Nome completo *</label><input id="clientName" name="clientName" autocomplete="name" required placeholder="Seu nome">
+      <label for="clientPhone">Telefone para contato *</label><input id="clientPhone" name="clientPhone" autocomplete="tel" type="tel" required placeholder="DDD + número">
+      <label for="service">Serviço desejado *</label><select id="service" name="service" required><option value="">Selecione um serviço</option><option>Aromaterapia — R$ 200,00</option><option>Cromoterapia + Reiki — R$ 200,00</option><option>Massagem relaxante aromática — valor a confirmar</option><option>Massagem nos pés — valor a confirmar</option><option>Relaxamento — consultar</option><option>Outro serviço / quero orientação</option></select>
+      <fieldset><legend>Modalidade preferida *</legend><label class="choice"><input type="radio" name="mode" value="Presencial" required> Presencial</label><label class="choice"><input type="radio" name="mode" value="On-line" required> On-line</label></fieldset>
+      <div class="two-fields"><div><label for="date">Dia desejado *</label><input id="date" name="date" type="date" required></div><div><label for="time">Horário desejado *</label><input id="time" name="time" type="time" required></div></div>
+      <label for="notes">Observações (opcional)</label><textarea id="notes" name="notes" rows="3" placeholder="Se desejar, informe alguma particularidade do agendamento. Evite incluir dados sensíveis."></textarea>
+      <label class="privacy"><input type="checkbox" id="consent" required> Concordo que os dados informados sejam usados para tratar esta solicitação de agendamento. *</label>
+      <button class="button button-full" type="submit">Preparar pedido de agendamento</button>
+      <p class="form-status" id="formStatus" role="status">O WhatsApp profissional ainda será configurado. Este protótipo não envia o pedido automaticamente.</p>
+    </form>
+  </section>
+
+  <section class="location-section" id="localizacao">
+    <div><p class="eyebrow">Estamos aqui para acolher</p><h2>Como chegar</h2><p><strong>Av. Serzedelo Corrêa, nº 168, sala 3, altos da farmácia Homeobel</strong><br>Bairro de Nazaré, Belém — PA.</p><p class="small-note">Confira o trajeto no mapa antes de sair. A localização exata da sala deve ser validada pela equipe.</p><a class="button button-outline" href="https://www.google.com/maps/search/?api=1&query=Farm%C3%A1cia+Homeobel%2C+Avenida+Serzedelo+Corr%C3%AAa%2C+168%2C+Nazar%C3%A9%2C+Bel%C3%A9m%2C+PA" target="_blank" rel="noopener noreferrer">Abrir no Google Maps ↗</a></div>
+    <div class="map-card"><div class="map-pin">⌖</div><strong>CETNA</strong><span>Nazaré · Belém, PA</span><small>Toque em “Abrir no Google Maps” para ver o trajeto.</small></div>
+  </section>
+
+  <section class="section faq-section" id="perguntas">
+    <div class="section-heading"><p class="eyebrow">Estamos aqui para ajudar</p><h2>Perguntas frequentes</h2></div>
+    <details><summary>Como faço para agendar?</summary><p>Preencha o formulário com seus dados, serviço, modalidade e preferência de dia e horário. A equipe entrará em contato para confirmar.</p></details>
+    <details><summary>O pedido já garante meu horário?</summary><p>Não. O pedido depende da confirmação da equipe e da disponibilidade do horário.</p></details>
+    <details><summary>Como funciona o pagamento?</summary><p>A preferência informada é pelo pagamento integral via Pix antes do atendimento, depois da confirmação do horário. A chave será informada pela equipe.</p></details>
+    <details><summary>Os atendimentos são presenciais ou on-line?</summary><p>O CETNA pretende oferecer as duas modalidades. A disponibilidade de cada serviço será confirmada pela equipe.</p></details>
+    <details><summary>Onde fica o CETNA?</summary><p>Na Avenida Serzedelo Corrêa, nº 168, sala 3, nos altos da farmácia Homeobel, bairro de Nazaré, Belém–PA.</p></details>
+    <details><summary>Posso cancelar ou remarcar?</summary><p>Entre em contato com a equipe. As regras de cancelamento e remarcação ainda serão definidas e publicadas.</p></details>
+    <details><summary>Posso deixar uma observação?</summary><p>Sim. O formulário tem um campo opcional para observações relacionadas ao agendamento. Evite inserir informações sensíveis desnecessárias.</p></details>
+  </section>
+</main>
+<footer class="site-footer"><img src="assets/logo.svg" alt="" width="42" height="42"><div><strong>CETNA</strong><p>Cuidar de você é o nosso propósito.</p><small>Protótipo em desenvolvimento · Centro Integrado de Terapias da Amazônia</small></div></footer>
+<script src="script.js"></script>
+</body>
+</html>

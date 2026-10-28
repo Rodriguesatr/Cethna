@@ -1,0 +1,13 @@
+{
+  "name": "CETNA — Centro Integrado de Terapias da Amazônia",
+  "short_name": "CETNA",
+  "description": "Cuidar de você é o nosso propósito.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf9f4",
+  "theme_color": "#174f3b",
+  "icons": [
+    {"src":"assets/logo.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

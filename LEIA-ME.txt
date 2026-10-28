@@ -1,0 +1,28 @@
+CETNA — PACOTE DE PROTÓTIPO PARA CLOUDFLARE PAGES
+
+CONTEÚDO
+- index.html: página principal com serviços, equipe, formulário, localização e FAQ.
+- style.css: identidade visual responsiva (verde, branco, dourado suave).
+- script.js: menu, validação básica e aviso de formulário ainda não conectado.
+- manifest.webmanifest e service-worker.js: base de instalação PWA e cache offline.
+- assets/logo.svg: símbolo botânico provisório inspirado na vitória-régia.
+
+IMPORTANTE — AINDA NÃO É UM SISTEMA OPERACIONAL COMPLETO
+Este pacote é um protótipo visual funcional para revisão e hospedagem de demonstração.
+O formulário NÃO envia pedidos a ninguém. O WhatsApp profissional ainda precisa ser fornecido e conectado.
+Não existe cobrança Pix integrada, geração de QR Code, conferência automática de pagamento, agenda ou banco de dados.
+Os preços e a duração dos serviços marcados “a confirmar” devem ser validados com a equipe.
+O sobrenome da Alice, a apresentação do André, fotos, redes sociais e política de cancelamento ainda estão pendentes.
+Confirme a grafia do endereço e a localização exata no mapa antes da divulgação.
+Reveja a política de privacidade e os textos profissionais antes de publicar para clientes.
+
+PUBLICAR NO CLOUDFLARE PAGES (UPLOAD DE ARQUIVOS ESTÁTICOS)
+1. Extraia o ZIP no computador.
+2. No painel Cloudflare, abra Workers & Pages (ou Pages, conforme a interface).
+3. Escolha criar um projeto Pages e a opção de fazer upload de arquivos estáticos / Direct Upload.
+4. Dê um nome ao projeto, por exemplo: cetna.
+5. Envie o conteúdo da pasta extraída (o index.html deve estar na raiz do envio; não envie somente o ZIP se o painel pedir arquivos extraídos).
+6. Conclua a implantação e abra o endereço *.pages.dev para testar no celular e no computador.
+7. Para atualizar, envie novamente os arquivos corrigidos no mesmo projeto.
+
+Não publique este protótipo como canal real de agendamento antes de conectar e testar o contato profissional e decidir os procedimentos de pagamento e privacidade.
